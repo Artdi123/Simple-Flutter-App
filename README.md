@@ -4,13 +4,13 @@ Sebuah aplikasi Flutter sederhana untuk mencatat daftar tugas. Pengguna dapat me
 
 ## Widget Tree
 
-MyApp (StatelessWidget)
- └── MaterialApp
-      ├── Home (StatefulWidget)
+MyApp (StatelessWidget) <br>
+ └── MaterialApp <br>
+      ├── Home (StatefulWidget) <br>
            ├── AppBar
            ├── SearchBox (TextField)
            ├── ListView (Widget ToDoItem)
-           └── Input Row (TextField + Tombol Tambah)
+           └── Input Row (TextField + Tombol Tambah) <br>
       └── Profile (StatelessWidget) - dinavigasi melalui route
 
 ## Pendekatan Manajemen State
